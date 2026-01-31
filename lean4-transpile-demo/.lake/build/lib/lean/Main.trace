@@ -1,9 +1,9 @@
 {"synthetic": false,
  "schemaVersion": "2025-09-10",
  "outputs":
- {"o": ["4bbab6f1587d35ff.olean"],
-  "i": "d26256e7fec1b9f1.ilean",
-  "c": "4df3e308014b305d.c"},
+ {"o": ["687b4b340a606df9.olean"],
+  "i": "0e8eae08ac985909.ilean",
+  "c": "a305a247fce8d144.c"},
  "log":
  [{"message":
    ".> LEAN_PATH=/Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/lib/lean /Users/ts21/.elan/toolchains/leanprover--lean4---v4.27.0/bin/lean /Users/ts21/risczero-ffi/lean4-transpile-demo/Main.lean -o /Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/lib/lean/Main.olean -i /Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/lib/lean/Main.ilean -c /Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/ir/Main.c --setup /Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/ir/Main.setup.json --json",
@@ -21,7 +21,7 @@
   ["Lean 4.27.0, commit db93fe1608548721853390a10cd40580fe7d22ae",
    "9a2be90fd35343e5"],
   ["/Users/ts21/risczero-ffi/lean4-transpile-demo/Main.lean",
-   "d61071a9349b4f6f"],
+   "621e5cc2af779846"],
   ["options", "00000000000006bb"],
   ["Module.leanArgs: #[]", "00000000000006bb"]],
- "depHash": "3bde7ea52df8f6ed"}
+ "depHash": "1f5aca5da2f4f274"}
