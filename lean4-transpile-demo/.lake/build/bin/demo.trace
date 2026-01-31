@@ -1,0 +1,17 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs": "c5f60b5653882b75",
+ "log":
+ [{"message":
+   ".> MACOSX_DEPLOYMENT_TARGET=99.0 /Users/ts21/.elan/toolchains/leanprover--lean4---v4.27.0/bin/clang -o /Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/bin/demo /Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/ir/Main.c.o.export -L /Users/ts21/.elan/toolchains/leanprover--lean4---v4.27.0/lib/lean --sysroot /Users/ts21/.elan/toolchains/leanprover--lean4---v4.27.0 -L /Users/ts21/.elan/toolchains/leanprover--lean4---v4.27.0/lib -L /Users/ts21/.elan/toolchains/leanprover--lean4---v4.27.0/lib/libc -fuse-ld=lld -lleancpp -lInit -lStd -lLean -lleanrt -lc++ -lLake -lgmp -luv",
+   "level": "trace"}],
+ "inputs":
+ [["linkObjs",
+   [["/Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/ir/Main.c.o.export",
+     "3009665de1d3f5fe"]]],
+  ["linkLibs", "00000000000006bb"],
+  ["Lean 4.27.0, commit db93fe1608548721853390a10cd40580fe7d22ae",
+   "9a2be90fd35343e5"],
+  ["traceArgs: #[]", "00000000000006bb"],
+  ["arm64-apple-darwin24.6.0", "77c16133d139df5a"]],
+ "depHash": "d83f1a4fb4e11bd5"}

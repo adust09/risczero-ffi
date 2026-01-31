@@ -1,0 +1,27 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["4bbab6f1587d35ff.olean"],
+  "i": "d26256e7fec1b9f1.ilean",
+  "c": "4df3e308014b305d.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/lib/lean /Users/ts21/.elan/toolchains/leanprover--lean4---v4.27.0/bin/lean /Users/ts21/risczero-ffi/lean4-transpile-demo/Main.lean -o /Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/lib/lean/Main.olean -i /Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/lib/lean/Main.ilean -c /Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/ir/Main.c --setup /Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/ir/Main.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["Main:deps",
+   [["deps",
+     [["demo/demo:extraDep", [["@demo:extraDep", "00000000000006bb"]]],
+      ["imports", "00000000000006bb"]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.27.0, commit db93fe1608548721853390a10cd40580fe7d22ae",
+   "9a2be90fd35343e5"],
+  ["/Users/ts21/risczero-ffi/lean4-transpile-demo/Main.lean",
+   "d61071a9349b4f6f"],
+  ["options", "00000000000006bb"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "3bde7ea52df8f6ed"}

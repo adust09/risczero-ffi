@@ -1,0 +1,18 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs": "3009665de1d3f5fe.o",
+ "log":
+ [{"message":
+   ".> /Users/ts21/.elan/toolchains/leanprover--lean4---v4.27.0/bin/clang -c -o /Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/ir/Main.c.o.export /Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/ir/Main.c -I /Users/ts21/.elan/toolchains/leanprover--lean4---v4.27.0/include -fstack-clash-protection -fwrapv -fvisibility=hidden -Wno-unused-command-line-argument --sysroot /Users/ts21/.elan/toolchains/leanprover--lean4---v4.27.0 -nostdinc -isystem /Users/ts21/.elan/toolchains/leanprover--lean4---v4.27.0/include/clang -O3 -DNDEBUG -DLEAN_EXPORTING",
+   "level": "trace"}],
+ "inputs":
+ [["Main:c",
+   [["/Users/ts21/risczero-ffi/lean4-transpile-demo/.lake/build/ir/Main.c",
+     "4df3e308014b305d"],
+    ["Lean 4.27.0, commit db93fe1608548721853390a10cd40580fe7d22ae",
+     "9a2be90fd35343e5"]]],
+  ["Lean 4.27.0, commit db93fe1608548721853390a10cd40580fe7d22ae",
+   "9a2be90fd35343e5"],
+  ["traceArgs: #[-O3, -DNDEBUG, -DLEAN_EXPORTING]", "c1efb66122fb2b9a"],
+  ["arm64-apple-darwin24.6.0", "77c16133d139df5a"]],
+ "depHash": "21531b1d589e5af3"}
