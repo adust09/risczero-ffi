@@ -12,16 +12,17 @@ fn main() {
         .file("src/c_code/fibonacci.c")
         .compile("fibonacci");
 
-    // Build Lean4-generated fibonacci
+    // Build Lean4-generated Main.c (contains lean_fibonacci)
     cc::Build::new()
         .compiler(&compiler)
         .flag("-march=rv32im")
         .flag("-mabi=ilp32")
         .flag("-ffreestanding")
         .flag("-nostdlib")
-        .file("src/c_code/lean_fibonacci.c")
-        .compile("lean_fibonacci");
+        .include("src/c_code")
+        .file("src/c_code/lean_main.c")
+        .compile("lean_main");
 
     println!("cargo:rerun-if-changed=src/c_code/fibonacci.c");
-    println!("cargo:rerun-if-changed=src/c_code/lean_fibonacci.c");
+    println!("cargo:rerun-if-changed=src/c_code/lean_main.c");
 }
