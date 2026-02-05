@@ -32,7 +32,7 @@ Lean4 (UInt32) → lake build → C code → RISC-V GCC → RISC Zero Guest → 
 ### Build Lean4 Code
 
 ```sh
-cd lean4-transpile-demo
+cd lean4-fib
 lake build +Main:c
 ```
 
@@ -76,7 +76,7 @@ risczero-ffi/
 │   │   │       └── lean_fibonacci.c  # Lean4-generated C
 │   │   └── build.rs          # RISC-V cross-compilation
 │   └── src/lib.rs
-└── lean4-transpile-demo/     # Lean4 project
+└── lean4-fib/     # Lean4 project
     ├── Main.lean
     ├── lakefile.toml
     └── lean-toolchain

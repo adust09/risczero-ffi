@@ -26,7 +26,7 @@ cargo check
 
 ```sh
 # Build Lean4 and generate C code
-cd lean4-transpile-demo && lake build +Main:c
+cd lean4-fib && lake build +Main:c
 
 # Generated C output location
 # .lake/build/ir/Main.c
@@ -44,7 +44,7 @@ risczero-ffi/
 │       ├── build.rs      # Cross-compiles C code to RISC-V using cc crate
 │       ├── src/main.rs   # Guest: reads input, calls C FFI, commits result
 │       └── src/c_code/   # C source files (manual and Lean4-generated)
-└── lean4-transpile-demo/ # Lean4 project for C code generation
+└── lean4-fib/ # Lean4 project for C code generation
     ├── Main.lean         # Lean4 source with @[export] functions
     └── lakefile.toml
 ```
