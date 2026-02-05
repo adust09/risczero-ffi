@@ -2,5 +2,5 @@
 Cargo.lock
 .serena/
 methods/guest/target/
-lean4-transpile-demo/build/
-lean4-transpile-demo/.lake/
+lean4-fib/build/
+lean4-fib/.lake/
